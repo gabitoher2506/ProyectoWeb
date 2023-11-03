@@ -174,7 +174,6 @@ body{
     margin-top: 100px;
 }
 #cCD2-1{
-    background-image: url(imagenes/refri.jpg);
     background-size: 40%; /* Reduce el tamaño de la imagen al 50% del cuadro */
     background-position: center;
     background-repeat: no-repeat;
@@ -204,7 +203,6 @@ body{
     margin-top: -351px;
 }
 #cCD3-1{
-    background-image: url(imagenes/refri.jpg);
     background-size: 40%; /* Reduce el tamaño de la imagen al 50% del cuadro */
     background-position: center;
     background-repeat: no-repeat;
@@ -400,11 +398,11 @@ body{
     color: blue; /* Color de resaltado al pasar el ratón */
 }
 
-#refri2{
+#Hrefri{
     margin-left: 140px;
     margin-top: 2px;
 }
-#refri3{
-    margin-left: 140px;
-    margin-top: 2px;
+#Hrefri1{
+    margin-left: 162px;
+    margin-top: -16px;
 }
