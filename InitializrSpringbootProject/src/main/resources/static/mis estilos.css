@@ -109,7 +109,7 @@ body{
     float: left; /* Hace que la segunda columna flote a la izquierda */
     padding: 5px; /* Espaciado interno para la segunda columna */
     box-sizing: border-box;
-    background: blue;
+    background: #6dbccf;
     margin: 0;
 }
 
@@ -117,9 +117,10 @@ body{
     width: 100%; /* Ancho del contenedor */
     height: 1009px; /* Altura del contenedor */
     border: 2px solid #000; /* Borde del contenedor */
-    border-radius: 10px; /* Borde redondeado */
     overflow: hidden; /* Oculta el contenido que exceda las dimensiones del contenedor */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidad */
+    border-style: none;
+
 }
 
 
@@ -131,7 +132,7 @@ body{
     background-repeat: no-repeat;
     width: 450px;
     height: 350px;
-    border: 2px solid #ffffff;
+    border: 2px solid #6dbccf;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -144,7 +145,7 @@ body{
     background-repeat: no-repeat;
     width: 450px;
     height: 350px;
-    border: 2px solid #ffffff;
+    border: 2px solid #6dbccf;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -158,6 +159,8 @@ body{
     margin-top: 34px;
 }
 
+
+
 #cCD2{
     background-image: url(imagenes/refri.jpg);
     background-size: 40%; /* Reduce el tamaño de la imagen al 50% del cuadro */
@@ -165,7 +168,7 @@ body{
     background-repeat: no-repeat;
     width: 450px;
     height: 350px;
-    border: 2px solid #ffffff;
+    border: 2px solid #6dbccf;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -179,7 +182,7 @@ body{
     background-repeat: no-repeat;
     width: 450px;
     height: 350px;
-    border: 2px solid #ffffff;
+    border: 2px solid #6dbccf;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -187,6 +190,14 @@ body{
     margin-left: 100px;
     margin-top: 100px;
 }
+
+#cCD2-1 img{
+    width: 31%;
+    height: 73%;
+    margin-left: 149px;
+    margin-top: 34px;
+}
+
 #cCD3{
     background-image: url(imagenes/lavadora.jpg);
     background-size: 40%; /* Reduce el tamaño de la imagen al 50% del cuadro */
@@ -194,7 +205,7 @@ body{
     background-repeat: no-repeat;
     width: 450px;
     height: 350px;
-    border: 2px solid #ffffff;
+    border: 2px solid #6dbccf;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -208,7 +219,7 @@ body{
     background-repeat: no-repeat;
     width: 450px;
     height: 350px;
-    border: 2px solid #ffffff;
+    border: 2px solid #6dbccf;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -223,7 +234,7 @@ body{
     background-repeat: no-repeat;
     width: 450px;
     height: 350px;
-    border: 2px solid #ffffff;
+    border: 2px solid #6dbccf;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -238,7 +249,7 @@ body{
     background-repeat: no-repeat;
     width: 450px;
     height: 350px;
-    border: 2px solid #ffffff;
+    border: 2px solid #6dbccf;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -249,7 +260,7 @@ body{
 #cCD6{
     width: 450px;
     height: 350px;
-    border: 2px solid #ffffff;
+    border: 2px solid #6dbccf;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -259,8 +270,8 @@ body{
 }
 
 #Recomendaciones{
-    text-align: center;
     color: white;
+    margin-left: 879px;
     font-size: -webkit-xxx-large;
     font-weight: bold;
     font-family: sans-serif;
@@ -310,8 +321,10 @@ body{
 
 }
 .reco-container {
-    display: flex; /* Utilizamos un contenedor flexible para alinear horizontalmente */
-    align-items: center; /* Alineamos verticalmente los elementos hijos al centro */
+    background-color: white;
+    border-style: double;
+    margin-right: 3px;
+
 }
 
 #mesajes-logo {
@@ -405,4 +418,84 @@ body{
 #Hrefri1{
     margin-left: 162px;
     margin-top: -16px;
+}
+
+#CM{
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 799px;
+    margin-left: 114px;
+    margin-top: 104px;
+    border: 2px solid #ffffff;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
+}
+
+#CM img{
+    width: 234px;
+    height: 389px;
+    margin-left: 150px;
+    margin-top: 100px;
+    padding-top: 22px;
+}
+
+#Samsung{
+    color: black;
+    margin-left: 879px;
+    font-size: -webkit-xxx-large;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#Mrefri {
+    margin-left: 504px;
+    margin-top: -354px;
+}
+#Mrefri1 {
+    margin-left: 511px;
+    margin-top: -9px;
+}
+
+#Reseñas{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+
+#usuario {
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: black;
+    margin-left: 62px;
+    margin-top: -36px;
+}
+
+#usuario-logo {
+    max-width: 45px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#estrellas {
+    margin-top: -10px;
+    margin-left: 3px;
+    width: 57%;
+
+}
+
+#rese {
+    font-size: 21px;
+    font-family: sans-serif;
+    color: black;
+    text-align: left;
+    margin-top: -7px;
+    margin-left: 20px;
 }
